@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'kanit', 'poppins', sans-serif;
+}
+
+body {
+    background-color: #1c283f;
+}
+
+.container {
+    height: 100vh;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+/*** box ***/
+.box {
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    height: 500px;
+    max-width: 600px;
+}
+ 
+
+.title h1 {
+    color: #00c3ff;
+    font-size: 38px;
+}
+
+.title p {
+    color: #EEF9FF;
+}
+
+/*** number-box ***/
+.number-box {
+    color: #fff;
+    margin-top: 20px;
+}
+
+.answer {
+    color: #ffff00;
+    font-size: 38px;
+}
+
+.min,
+.max {
+    color: #ff00ff;
+}
+
+.hint {
+    margin-top: 20px;
+    color: #ffff00
+}
+
+.err-message {
+    color: #ff0000;
+}
+
+/*** form-box ***/
+.form-box {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #00c3ff;
+}
+
+.form-box .input-number {
+    padding: 10px 24px;
+    max-width: 200px;
+    font-size: 24px;
+    border: 2px solid #091E3E;
+    border-radius: 6px;
+    outline: none;
+    text-align: center;
+}
+
+.form-box .input-number:focus,
+.form-box .input-number:valid {
+    border: 2px solid #06A3DA;
+    box-shadow: 0 0 5px #06A3DA;
+}
+
+.form-box .btn {
+    cursor: pointer;
+    margin-top: 16px;
+    padding: 10px 36px;
+    font-size: 16px;
+    border: 2px solid #06A3DA;
+    border-radius: 3px;
+    background-color: #ff00ff;
+    color: #fff;
+}
+
+.form-box .btn:hover {
+    box-shadow: 0 0 10px #06A3DA;
+}
+
+.restart-btn {
+    background-color: #091E3E !important;
+}
+
+.btn-hidden {
+    display: none;
+}
