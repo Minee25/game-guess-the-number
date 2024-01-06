@@ -65,7 +65,7 @@ document.addEventListener('keydown', (event) => {
 playAgainBtn.addEventListener('click', () => {
     // รีเซ็ตเป็นค่าเริ่มต้น
     min = 0;
-    max = 0;
+    max = 1001;
     random = Math.floor(Math.random() * 1000 + 1);
     answerElement.innerHTML = '...?...';
     minElement.innerHTML = '1';
